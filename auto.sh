@@ -6,17 +6,16 @@
 #    By: angagnie <angagnie@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2015/11/25 17:16:40 by angagnie          #+#    #+#              #
-#    Updated: 2015/12/08 21:00:14 by angagnie         ###   ########.fr        #
+#    Updated: 2015/12/09 13:17:40 by angagnie         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
 
 save="$(PWD)"
-#path="~/angagnie/libft/"
-path=".."
+libft_path="~/Documents/42Projects/Libft/"
 
-echo $save, $path
-cd $path
+echo $save, $libft_path
+cd $libft_path
 rm -f libft.a
 ls -l ft_*.c | wc -l
 make $1
