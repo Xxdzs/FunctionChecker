@@ -6,7 +6,7 @@
 #    By: angagnie <angagnie@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2015/07/28 22:45:14 by angagnie          #+#    #+#              #
-#    Updated: 2015/12/09 13:27:44 by angagnie         ###   ########.fr        #
+#    Updated: 2015/12/09 15:26:04 by angagnie         ###   ########.fr        #
 #                                                                              #
 #******************************************************************************#
 
@@ -22,11 +22,11 @@ SRCLIST:=main test_atoi test_bzero\
 	test_strcat
 # === Standard ===
 # source's directory
-SRCPATH=:src/
+SRCPATH:=src/
 # Headers' directory
-HDRPATH=:hdr/
+HDRPATH:=hdr/
 # Cache's path
-CCHPATH=:cache/
+CCHPATH:=cache/
 # ================
 
 # === Better not to touch ===
